@@ -14,8 +14,7 @@ const { addNamed } = require('@babel/helper-module-imports');
  * - if the fragment doesn't already have a key, adds a key attribute
  * - supports functional components only
  * 
- * @see https://github.com/preactjs/preact/issues/3406
- * @see https://github.com/preactjs/preact/issues/3406#issuecomment-1545937924
+ * @see https://github.com/preactjs/prefresh/issues/569
  */
 
 module.exports = declare((api) => {
