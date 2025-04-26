@@ -15,9 +15,10 @@ https://github.com/preactjs/prefresh/issues/569
 
 ## Usage
 
-Add this plugin to your `babel.config.js` file before your JSX transform.
+Import the plugin via `require.resolve` - `require.resolve('./babel-plugin-preact-add-fragment-key.js'),`
 
-`require.resolve('./babel-plugin-preact-add-fragment-key.js'),`
+Example `babel.config.js` - add this before your JSX transform.
+
 
 ```
 module.exports = (api) => {
