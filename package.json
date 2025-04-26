@@ -1,0 +1,28 @@
+{
+  "name": "babel-plugin-preact-add-fragment-key",
+  "version": "1.0.0",
+  "description": "Babel plugin to add keys to top-level Preact Fragments to fix HMR issues",
+  "main": "babel-plugin-preact-add-fragment-key.js",
+  "keywords": [
+    "babel",
+    "plugin",
+    "preact",
+    "fragment",
+    "key",
+    "hmr"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/helper-module-imports": "latest",
+    "@babel/helper-plugin-utils": "latest",
+    "@babel/types": "latest"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0",
+    "preact": ">=10.0.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
